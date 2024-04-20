@@ -1,0 +1,56 @@
+@fontDoTitulo: Lobster, cursive;
+@fontPrincipal: Roboto, sans-serif;
+@corDeFundo:#833471;
+@corDoTexto: #fff;
+@corDoBotao: #ED4C67;
+
+
+body {
+    background-color: @corDeFundo;
+    color: @corDoTexto;
+    font-family: @fontPrincipal;
+}
+
+h1 {
+    font-family: @fontDoTitulo;
+    color: @corDoTexto;
+    font-weight: bold;
+}
+
+button {
+    padding: 16px;
+    color: @corDoTexto;
+    background-color: @corDoBotao;
+    cursor: pointer;
+    border: none;
+    margin-top: 16px;
+    font-weight: bold;
+}
+
+input {
+    margin: 16px auto 0;
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 6px solid @corDoTexto;
+    outline: none;
+    color: @corDoTexto;
+    font-weight: bold;
+
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    max-width: 960px;
+    width: 100%;
+}
+
+.resultado {
+    padding: 16px;
+    margin-top: 120px;
+    border: 8px dotted @corDoTexto;
+    display: none;
+}
